@@ -1,8 +1,9 @@
-import React from 'react'
-import { Route, Switch } from 'react-router-dom'
-import Home from './Home'
-import About from './About'
-import Contact from './Contact'
+import React from 'react';
+import { Route, Switch } from 'react-router-dom';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import Home from './Home';
+import About from './About';
+import Contact from './Contact';
 
 
 class App extends React.Component {
